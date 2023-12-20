@@ -336,3 +336,10 @@ fieldset.summaryField{
 .edu_1L, .edu_2L{
     display: none;
 }
+
+@media screen and (max-width:992px) {
+    .book,.page-1{
+        width: 100vw !important;
+        height: 100vh !important;
+    }   
+}
